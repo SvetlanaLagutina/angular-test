@@ -1,0 +1,22 @@
+:host {
+    display: flex;
+    flex-direction: column;
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #efefef;
+        padding: 12px;
+
+        nav {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+    }
+}
+
+.qwerty {
+    color: red;
+}
